@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad personalizada js</title>
+    <script language="javascript" type="text/javascript">
+        alert ('Hola Bienvenido a Tu Sistema De Gestion');
+        var brayan = prompt("Ingrese" + "\n1 Si desea saber mi nombre" + "\n2 Si desea saber mi edad" + "\n3 Si desea saber mi fecha de nacimiento" 
+        + "\n4 Si desea saber donde vivo" + "\n5 Si desea saber mi juego favorito" + "\n6 Si desea saber con quien vivo" + 
+        "\n7 Si desea saber mi estatura" + "\n8 Si desea saber mi cancion favorita" + "\nElija una opcion: " );
+        var nombre = "Mi nombre esBrayan Camilo Perez Gutierrez"
+        var edad = "Mi edad es de 22 años"
+        var fecha = "Naci en 1998 el 2 de mayo"
+        var ubicacion = "Soy de bogota, vivo en usaquen en la calle 185c #4-24"
+        var juego = "Actualmente estoy jugando mucho warcraft pero tambien me gusta mucho magic asi que diria que los dos"
+        var vivo = "Vivo con mi mama mis dos hermanos uno mayor y uno menor con mi abuela y mi padrastro"
+        var estatura ="mi estatura es de 1.62 no recuerdo muy bien D:"
+        var cancion = "actualmente diria que mi cancion favorita es hijo del viento de ikarus falling aca te dejo el link https://www.youtube.com/watch?v=nRLfXRpjdq4"
+        switch (brayan) {
+            case '1':
+            res = nombre;
+            break;
+            case '2':
+            res = edad;
+            break;
+            case '3' :
+            res = fecha;
+            break;
+            case '4':
+            res = ubicacion;
+            break;
+            case '5':
+            res = juego;
+            break;
+            case '6':
+            res = vivo;
+            break;
+            case '7':
+            res = estatura;
+            break;
+            case '8':
+            res = cancion;
+            break;
+             default:
+             console.log('default');
+             break;
+        }
+        alert(res);
+        </script>
+</head>
+<body style="background-color:#00c3ff7a;">
+    <center><img src="../imagen/11.jpeg"></center>
+    <Center><h1>Gracias por entrar que tengas un buen dia</h1></Center>
+</body>
+</html>
